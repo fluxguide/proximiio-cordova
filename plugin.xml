@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="navtureapps-proximiio" version="0.6.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
-    <name>proximiio</name>
+<plugin id="fluxguide-proximiio" version="0.6.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>fluxguide-proximiio</name>
       <asset src="www/proximiio.js" target="js/proximiio.js"/>
 
     <js-module name="proximiio" src="www/proximiio.js">
@@ -43,8 +43,8 @@
         <framework src="libicucore.dylib" />
         <framework src="libz.dylib" />
         <framework src="libc++.dylib" />
-        <framework src="Proximiio" type="podspec" spec="~> 1.1.51"/>
-        <!-- <podspec src="Proximiio" type="podspec" spec="~> 1.1.51"/> -->
+        <podspec src="Proximiio" spec="~> 5.2.19"/>
+        <podspec src="ProximiioProcessor" spec="~> 0.7.0"/>
     </platform>
 
     <platform name="android">
